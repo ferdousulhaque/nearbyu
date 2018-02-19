@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\pre-dexed\debug\classes-4bbac1fd56c79a2c35dc18c58e7363b0b2f64f1a.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-092bea1748552d7c76a953f0135ef2ee0086094d.jar" />
+    </item>
+    <item
+        jar="C:\Users\FerdousTonni\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\pre-dexed\debug\gson-2.2.4-ab5a0aad485c5ee45db631c4a40451c222a78092.jar" />
+    </item>
+    <item
+        jar="D:\SDK_AndroidStudio\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-9bb2e9c14875fdfebe81600653ba618ccb656b3f.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\pre-dexed\debug\classes-a319e9c9ad594108dd59203dcb0ac2d45650c642.jar" />
+    </item>
+    <item
+        jar="C:\Users\FerdousTonni\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\AndroidStudio_Workspace\NearbyTest\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-fa213ff8b31969a3567f351c99cc9a68950ca872.jar" />
+    </item>
+
+</items>

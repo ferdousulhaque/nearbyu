@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nearby MKT</string>
+    <string name="action_settings">Preference</string>
+    <string name="str_about">
+        Nearby application is the first ever in bangladesh location based offer advertising system, where you can get to know about the nearby
+        shops, concerts ,musical events ,restaurants, fast food shops, grocery.
+        \n\n
+        Many offers running all around you but there is no centralised system where you can get to know about the offers. So we initiated
+        a project to help the people get to attached with the offers nearby.
+        \n\n
+        Come join the revolution
+        \n\n
+    </string>
+
+    <string-array name="searchType">
+        <item>Restaurant</item>
+        <item>Super Shop</item>
+        <item>ATM Booth</item>
+        <item>Hotels nd Resorts</item>
+        <item>Chinese</item>
+    </string-array>
+
+    <string-array name="purpose">
+        <item>Want more feature</item>
+        <item>Want to connect with us</item>
+        <item>Feedback</item>
+        <item>Event Planning</item>
+    </string-array>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_nearby_admin">This Admin Login is for Nearby Marketeers for adding new offers in the Nearby Application Database</string>
+    <string name="register_button">Register Now</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="welcome">WELCOME</string>
+    <string name="is_login">You have been successfully login </string>
+    <string name="sign_up">Sign Up Now</string>
+    <string name="InvisibleImage">InvisibleImage</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+</resources>

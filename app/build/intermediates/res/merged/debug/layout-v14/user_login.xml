@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="2"
+    android:layout_margin="1dp"
+    android:padding="14dp"
+    android:background="@drawable/main_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="#ff000000">
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="108dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/nearby_icon"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ecffffff"
+        android:padding="30dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Username"
+            android:id="@+id/tvUsername"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="20dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_field"
+            android:background="#ffffff"
+            android:inputType="text|textEmailAddress"
+            android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Password"
+            android:id="@+id/tvPass"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="20dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_field"
+            android:background="#ffffff"
+            android:inputType="textPassword"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_nearby_admin"
+        android:textSize="16sp"
+        android:id="@+id/textView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingTop="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/btnLogin"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+    <!--<ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/featureView"
+        tools:listitem="@layout/feature_layout"
+        android:visibility="visible" />-->
+
+
+<!-- From: file:/D:/AndroidStudio_Workspace/NearbyTest/app/src/main/res/layout-v14/user_login.xml -->

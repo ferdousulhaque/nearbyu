@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nearby.nearbyadmin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+
+            android:name="com.nearby.nearbyadmin.LoginMainActivity"
+            android:label="Nearby MKT" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.nearby.nearbyadmin.RegisterActivity3"
+                  android:label="Add New Offers"></activity>
+
+        <activity android:name="com.nearby.nearbyadmin.AboutUs"
+            android:label="About Nearby"></activity>
+
+        <activity android:name="com.nearby.nearbyadmin.ContactUs"
+            android:label="Contact US"></activity>
+
+        <activity android:name="com.nearby.nearbyadmin.LoginActivity3"
+            android:label="Login to Nearby App"></activity>
+
+        <!--<activity android:name="com.nearby.nearbyadmin.LoginMainActivity"
+        android:label="Nearby Marketeers"></activity>-->
+
+        <activity android:name="com.nearby.nearbyadmin.RegisterActivity"
+            android:label="Add New Offers"></activity>
+
+        <activity android:name="com.nearby.nearbyadmin.LoginPostPageActivity"
+            android:label="Select Offer Type Page"></activity>
+
+        <activity android:name="com.nearby.nearbyadmin.GalleryDetailActivity"
+            android:label="Add Event Images"></activity>
+    </application>
+
+</manifest>
