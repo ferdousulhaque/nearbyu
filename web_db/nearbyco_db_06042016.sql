@@ -106,14 +106,14 @@ CREATE TABLE `store_gallery` (
 --
 
 INSERT INTO `store_gallery` (`im_id`, `store_id`, `img_title`, `img_thumb`, `img_full`, `active`) VALUES
-(40001, 5001, 'Pizza - Pizza Hut Trinidad and Tobago', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40003, 5002, 'Second Image', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40004, 5001, 'Pizza - Pizza Hut Trinidad and Tobago', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40005, 5001, 'Pizza - Pizza Hut Trinidad and Tobago', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40006, 5002, 'Second Image', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40007, 5002, 'Second Image', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40008, 5000, 'Second Image', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1),
-(40009, 5003, 'Second Image', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.jpg', 'http://nearby.com.bd/mx9vp3/store_gallery/img_40001.png', 1);
+(40001, 5001, 'Pizza - Pizza Hut Trinidad and Tobago', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40003, 5002, 'Second Image', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40004, 5001, 'Pizza - Pizza Hut Trinidad and Tobago', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40005, 5001, 'Pizza - Pizza Hut Trinidad and Tobago', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40006, 5002, 'Second Image', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40007, 5002, 'Second Image', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40008, 5000, 'Second Image', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1),
+(40009, 5003, 'Second Image', 'http://your-domain/mx9vp3/store_gallery/img_40001.jpg', 'http://your-domain/mx9vp3/store_gallery/img_40001.png', 1);
 
 -- --------------------------------------------------------
 
@@ -138,10 +138,10 @@ CREATE TABLE `store_info` (
 --
 
 INSERT INTO `store_info` (`store_id`, `type_id`, `store_owner_nm`, `store_owner_mob`, `open_from_to`, `store_name`, `store_icon`, `store_timestamp`, `store_active`) VALUES
-(5000, 15, 'Dewan Rakib Shah', '01811080892', '10AM-10PM', 'KFC', 'http://nearby.com.bd/mx9vp3/store_logo/5000.jpg', '2014-06-25 10:12:07', 1),
-(5001, 15, 'Rabita Tanaya', '01811080893', '9AM-5PM', 'Nandoo''s Peri Peri Chicken', 'http://nearby.com.bd/mx9vp3/store_logo/5001.jpg', '2014-06-26 15:56:27', 1),
-(5002, 15, 'Tonni Ferdous', '01711084714', '4PM-12AM', 'Pizza Hut Inc.', 'http://nearby.com.bd/mx9vp3/store_logo/5002.jpg', '2015-11-16 23:00:40', 1),
-(5004, 16, 'Tonni Ferdous', '01628569032', '11AM-9PM', 'Fairy Cloth Store', 'http://nearby.com.bd/mx9vp3/store_logo/5002.jpg', '2015-12-11 23:37:06', 1);
+(5000, 15, 'Shah', '01811080892', '10AM-10PM', 'KFC', 'http://your-domain/mx9vp3/store_logo/5000.jpg', '2014-06-25 10:12:07', 1),
+(5001, 15, 'Rabita', '01811080893', '9AM-5PM', 'Nandoo''s Peri Peri Chicken', 'http://your-domain/mx9vp3/store_logo/5001.jpg', '2014-06-26 15:56:27', 1),
+(5002, 15, 'Ferdous', '01711084714', '4PM-12AM', 'Pizza Hut Inc.', 'http://your-domain/mx9vp3/store_logo/5002.jpg', '2015-11-16 23:00:40', 1),
+(5004, 16, 'Ferdous', '01711084714', '11AM-9PM', 'Fairy Cloth Store', 'http://your-domain/mx9vp3/store_logo/5002.jpg', '2015-12-11 23:37:06', 1);
 
 -- --------------------------------------------------------
 
@@ -407,7 +407,7 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`id`, `username`, `password`, `email`, `user_mob`, `user_imei`, `user_img`, `usr_occu`, `created_on`, `last_login`, `active`) VALUES
-(1, 'ferdous', 'cc03e747a6afbbcbf8be7668acfebee5', 'ferdous@gmail.com', '01711084714', '355490062509355', 'http://nearby.com.bd/mx9vp3/mx10vp3/cc03e7.png', 'Engineer', '2016-02-06 10:27:56', '2016-02-06 10:27:56', 1);
+(1, 'ferdous', 'cc03e747a6afbbcbf8be7668acfebee5', 'ferdous@gmail.com', '01711084714', '355490062509355', 'http://your-domain/mx9vp3/mx10vp3/cc03e7.png', 'Engineer', '2016-02-06 10:27:56', '2016-02-06 10:27:56', 1);
 
 -- --------------------------------------------------------
 
@@ -431,7 +431,7 @@ CREATE TABLE `user_new_queue` (
 --
 
 INSERT INTO `user_new_queue` (`id`, `username`, `password`, `email`, `user_mob`, `user_imei`, `usr_occu`, `activation_link`) VALUES
-(23, 'rest', 'cc03e747a6afbbcbf8be7668acfebee5', 'rest@gmail.com', '01711448989', '355490062509363', 'Student', 'http://nearby.com.bd/activate/validate?ot=jFegdg');
+(23, 'rest', 'cc03e747a6afbbcbf8be7668acfebee5', 'rest@gmail.com', '01711448989', '355490062509363', 'Student', 'http://your-domain/activate/validate?ot=jFegdg');
 
 -- --------------------------------------------------------
 
@@ -459,7 +459,7 @@ CREATE TABLE `usr_loc` (
 --
 
 INSERT INTO `usr_loc` (`loc_usr_id`, `usr_name`, `usr_msisdn`, `usr_imei`, `usr_email`, `usr_occupation`, `usr_longi`, `usr_lati`, `usr_rad`, `last_check_time`, `created_on`, `usr_active`) VALUES
-(1, 'Haque', '+8801711084714', '355490062509355', 'serenity.cipher@gmail.com', 'Engineer', 93.54, 25.67, 2, 1403703780, '2015-12-08 13:21:28', 1),
+(1, 'Haque', '+8801711084714', '355490062509355', 'cipher@gmail.com', 'Engineer', 93.54, 25.67, 2, 1403703780, '2015-12-08 13:21:28', 1),
 (2, 'ferdous', '+8801711084713', '355490062509355', 'ferdous@gmail.com', 'Accountant', 90.4379188, 23.8232349, NULL, 1403703780, '2015-12-08 13:22:26', 1);
 
 -- --------------------------------------------------------
